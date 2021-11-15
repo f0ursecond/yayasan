@@ -1,0 +1,50 @@
+.banner {
+  background-image: url("asset/mesjid.jpg");
+  background-size: cover;
+  padding-top: 20%;
+  padding-bottom: 20%;
+  text-align: center;
+  text-transform: uppercase;
+}
+.lingkaran {
+  display: inline-block;
+  border-radius: 50%;
+  width: 150px;
+  margin: auto;
+  height: 150px;
+  color: #ffa500;
+  background-color: white;
+}
+
+.lingkaran i {
+  position: relative;
+  top: 30px;
+}
+
+.banner p {
+  font-family: monospace;
+  font-weight: lighter;
+  color: #090909;
+  font-size: 5vw;
+}
+
+.kegiatan {
+  background-size: cover;
+  padding-top: 20%;
+  padding-bottom: 20%;
+}
+
+.tentang {
+  background-color: #f9f9f8;
+  background-size: cover;
+  padding-bottom: 80px;
+  color: black;
+}
+
+.anjay {
+  margin-top: 15px;
+}
+
+.portfolio p {
+  font-size: 18px;
+}

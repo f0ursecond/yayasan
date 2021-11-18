@@ -1,3 +1,9 @@
+/* Font */
+@import url("https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap");
+
 .banner {
   background-image: url("asset/mesjid.jpg");
   background-size: cover;
@@ -28,11 +34,14 @@
 }
 
 .banner p {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: "Didact Gothic", sans-serif;
   font-weight: lighter;
   color: #090909;
   font-size: 5vw;
+}
+
+.banner button {
+  font-family: "Patrick Hand", cursive;
 }
 
 .kegiatan {
@@ -48,12 +57,13 @@
   color: black;
 }
 
-.anjay {
-  margin-top: 35px;
+.tentang li {
+  font-family: "Didact Gothic", sans-serif;
 }
 
 .portfolio p {
   font-size: 18px;
+  font-family: "Patrick Hand", cursive;
 }
 
 .bawah i {
@@ -68,7 +78,21 @@
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
+.galeri {
+  margin-bottom: 225px;
+}
+
+.galeri p {
+  font-family: "Patrick Hand", cursive;
+  font-size: 20px;
+}
 
 .banner2 {
-  padding-top: 150px;
+  margin-top: 120px;
+  padding-top: 10px;
+  border-radius: 20px;
+}
+
+.kontak {
+  margin-top: 40px;
 }
